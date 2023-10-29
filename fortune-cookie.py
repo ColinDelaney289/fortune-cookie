@@ -63,6 +63,6 @@ while len(lucky_num_set) < 4:
     lucky_num_set.add(lucky_num)
 
 print(your_fortune)
-print('Lucky numbers:', end=" ") 
+print('Lucky numbers:', end=' ') 
 for lucky_num_set_item in sorted(lucky_num_set):
-    print(lucky_num_set_item, end=" ") 
+    print(lucky_num_set_item, end=' ') 
